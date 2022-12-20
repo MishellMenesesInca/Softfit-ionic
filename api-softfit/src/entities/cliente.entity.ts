@@ -1,5 +1,5 @@
 import { Column, Entity, JoinColumn, OneToOne, PrimaryColumn } from "typeorm";
-import { Ubigeo } from "./ubigeo.entity";
+import { Ubigeo } from "./ubigeo.enity";
 
 @Entity({ name: "CLIENTE" })
 export class Cliente {
