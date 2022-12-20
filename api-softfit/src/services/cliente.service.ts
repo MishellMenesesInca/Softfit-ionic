@@ -33,7 +33,7 @@ export class ClienteService {
     return this.clienteRepository.find({
       where: {id},
       relations: {
-        ubigeo: true
+        ubige: true
       }
     });
   }
